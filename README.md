@@ -18,5 +18,4 @@ I checked the source code on my index. html when I pulled it up on google and th
 
 I left a couple div's due to me not fully getting it. 
 
-
 Code Refactor

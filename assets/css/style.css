@@ -8,6 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
+.float-left { 
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,11 +32,11 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.rise  {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +44,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,6 +62,7 @@ p {
     font-size: 16px;
 }
 
+/* HERO */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +72,32 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* MAIN SECTION */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content section img {
+    max-height: 200px;
+}
+
+.content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* ASIDE SECTION > */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -188,6 +211,7 @@ p {
     font-size: 36px;
 }
 
+/* FOOTER SECTION */
 .footer {
     padding: 30px;
     clear: both;
